@@ -17,7 +17,7 @@ En este ejercicio, trabajaremos con números complejos. Para ello, se proporcion
 1. `uComplejo.pas`
 2. `tad_ej1_num_complejo.pas`
 
-El archivo `tad_ej1_num_complejo.pas` utiliza la unidad `uComplejo.pas`, la cual deberán implementar. A continuación, se detallan los registros, funciones y procedimientos que deben implementar en `uComplejo.pas`.
+El archivo `tad_ej1_num_complejo.pas` utiliza la unidad `uComplejo.pas`, la cual deberán implementar. A continuación, se detallan los registros, funciones y procedimientos que SE deben implementar en `uComplejo.pas`.
 
 ## Registros y variables
 
@@ -118,13 +118,13 @@ El resultado se almacena en el número complejo `res` que se pasa por referencia
 procedure Potencia(var res: TComplejo; c: TComplejo; exponente: Integer);
 ```
 
-Esta función eleva un número complejo a una potencia entera y devuelve el resultado. Para elevar un número complejo a una potencia entera... dejaré que lo averigüeis. 
+Esta función eleva un número complejo a una potencia entera y devuelve el resultado. Para elevar un número complejo a una potencia entera... investiga!!. 
 
 El resultado se almacena en el número complejo `res` que se pasa por referencia.
 
 ## Implementación
 
-Deben implementar todas estas funciones y procedimientos en el archivo `uComplejo.pas`. Una vez implementados, podrán ejecutar el programa `tad_ej1_num_complejo.pas` para verificar su correcto funcionamiento.
+Deben implementar todas estas funciones y procedimientos en el archivo `uComplejo.pas`. Una vez implementados, ejecuta el programa `tad_ej1_num_complejo.pas` para verificar su correcto funcionamiento.
 
 # Ejercicio 2: Métodos de Pago
 
@@ -157,9 +157,9 @@ procedure RealizarPago(<<tipo-de-pago>>: string; monto: real);
 ```
 
 Este procedimiento realiza el pago por el monto especificado. La implementación varía según el método de pago:
-- Para `uPagoTarjeta.pas`, muestra un mensaje indicando que se está realizando el pago con tarjeta. En este caso `<<tipo-de-pago>>` es "Tarjeta".
+- Para `uPagoTarjeta.pas`, muestra un mensaje indicando que se está realizando el pago con tarjeta. En este caso `<<tipo-de-pago>>` es "tarjeta".
 - Para `uPagoTransferencia.pas`, muestra un mensaje indicando que se está realizando una transferencia bancaria con el IBAN proporcionado. En este caso `<<tipo-de-pago>>` es "iban".
-- Para `uPagoBizum.pas`, muestra un mensaje indicando que se está realizando un pago por Bizum. En este caso `<<tipo-de-pago>>` es "teléfono".
+- Para `uPagoBizum.pas`, muestra un mensaje indicando que se está realizando un pago por Bizum. En este caso `<<tipo-de-pago>>` es "telefono".
 
 ### 3. `ValidarPago`
 
@@ -168,13 +168,13 @@ function ValidarPago(<<tipo-de-pago>>: string): boolean;
 ```
 
 Esta función valida la información proporcionada para el pago. La validación varía según el método de pago:
-- Para `uPagoTarjeta.pas`, valida que el número de tarjeta tenga 16 dígitos. En este caso `<<tipo-de-pago>>` es "Tarjeta".
+- Para `uPagoTarjeta.pas`, valida que el número de tarjeta tenga 16 dígitos. En este caso `<<tipo-de-pago>>` es "tarjeta".
 - Para `uPagoTransferencia.pas`, valida que el número de cuenta IBAN tenga 24 caracteres. En este caso `<<tipo-de-pago>>` es "iban".
-- Para `uPagoBizum.pas`, valida que el número de teléfono tenga 9 dígitos. En este caso `<<tipo-de-pago>>` es "teléfono".
+- Para `uPagoBizum.pas`, valida que el número de teléfono tenga 9 dígitos. En este caso `<<tipo-de-pago>>` es "telefono".
 
 ## Implementación
 
-Deben implementar todas estas funciones y procedimientos en los archivos `uPagoTarjeta.pas`, `uPagoTransferencia.pas` y `uPagoBizum.pas`. Una vez implementados, podrán ejecutar el programa `tad_ej2_pagar.pas` para verificar su correcto funcionamiento.
+Deben implementar todas estas funciones y procedimientos en los archivos `uPagoTarjeta.pas`, `uPagoTransferencia.pas` y `uPagoBizum.pas`. Una vez implementados, ejecuta el programa `tad_ej2_pagar.pas` para verificar su correcto funcionamiento.
 
 El archivo `tad_ej2_pagar.pas` contiene el programa principal que utiliza las tres unidades de pago. Este programa solicita al usuario que introduzca una cantidad a pagar y seleccione un método de pago. Luego, realiza el pago utilizando el método seleccionado y valida si el pago fue exitoso.
 
@@ -255,7 +255,7 @@ Esta función añade un alumno a la asignatura.
 procedure Evaluar(var A: TAsignatura; AlumnoDNI: string; Nota: Real; Parcial: Integer);
 ```
 
-Este procedimiento evalúa a un alumno en un parcial específico. Dado que hay dos parciales, el parámetro `Parcial` puede ser 1 o 2. 
+Este procedimiento evalúa a un alumno en un parcial específico y deberás poner la nota que nos pasan en el array correspondiente. Dado que hay dos parciales, el parámetro `Parcial` puede ser 1 o 2. 
 No nos preocuparemos por la validación de los parámetros en este ejercicio. Vamos a asumir que los parámetros son correctos.
 
 4. `CalcularNotaFinal`
@@ -301,7 +301,7 @@ Esta función añade un alumno a la asignatura.
 procedure Evaluar(var A: TAsignatura; AlumnoDNI: string; Nota: Real);
 ```
 
-Este procedimiento evalúa a un alumno con una nota final.
+Este procedimiento evalúa a un alumno con una nota final y deberás poner la nota que nos pasan en el array correspondiente.
 
 4. `CalcularNotaFinal`
 
@@ -313,7 +313,7 @@ Esta función calcula la nota final de un alumno en la asignatura. En este caso,
 
 ## Implementación
 
-Deben implementar todas estas funciones y procedimientos en los archivos `uPersona.pas`, `uAsignaturaEvalContinua.pas` y `uAsignaturaEvalFinal.pas`. Una vez implementados, podrán ejecutar el programa `tad_ej3_gestion_academica.pas` para verificar su correcto funcionamiento.
+Deberás implementar todas estas funciones y procedimientos en los archivos `uPersona.pas`, `uAsignaturaEvalContinua.pas` y `uAsignaturaEvalFinal.pas`. Una vez implementados, ejecuta el programa `tad_ej3_gestion_academica.pas` para verificar su correcto funcionamiento.
 
 El archivo `tad_ej3_gestion_academica.pas` contiene el programa principal que utiliza las tres unidades. Este programa crea un profesor y dos alumnos, inicializa las asignaturas, añade los alumnos a las asignaturas, evalúa a los alumnos y muestra los resultados finales.
 

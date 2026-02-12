@@ -1,4 +1,4 @@
-program tad_ej1_num_complejo_HECHO;
+program tad_ej1_num_complejo;
 
 uses
     uComplejo;

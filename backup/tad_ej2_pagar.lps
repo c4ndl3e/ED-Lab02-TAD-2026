@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="tad_ej2_pagar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="40"/>
+        <CursorPos X="38" Y="56"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uPagoTarjeta.pas"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="25" Y="29"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uPagoTransferencia.pas"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="67" Y="20"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uPagoBizum.pas"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="41" Y="27"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="3">
+      <Position>
+        <Filename Value="tad_ej2_pagar.pas"/>
+        <Caret Line="18" Column="5" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="uPagoTarjeta.pas"/>
+        <Caret Line="29" Column="23" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="uPagoTarjeta.pas"/>
+        <Caret Line="32" Column="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="tad_ej2_pagar.pas"/>
+        <Caret Line="51" Column="10" TopLine="29"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

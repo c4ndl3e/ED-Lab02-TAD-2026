@@ -22,11 +22,7 @@ end;
 
 function ValidarPago(numeroTarjeta: string): boolean;
 begin
-  {validarPago:= length(numeroTarjeta) = 16;}
-  if length(numeroTarjeta) = 16 then
-    validarPago:= True
-  else
-    validarPago:= False;
+  validarPago:= length(numeroTarjeta) = 16;
 end;
 
 end.

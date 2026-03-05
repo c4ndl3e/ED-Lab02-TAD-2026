@@ -17,7 +17,7 @@ end;
 
 procedure RealizarPago(numeroCuenta: string; monto: real);
 begin
-  writeln('Se va a realizar un pago de ',monto,' al numero de IBAN ',numeroCuenta);
+  writeln('Se va a realizar un pago de ',monto,' al numero de IBAN: ',numeroCuenta);
 end;
 
 function ValidarPago(numeroCuenta: string): boolean;

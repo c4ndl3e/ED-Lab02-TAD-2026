@@ -17,7 +17,7 @@ end;
 
 procedure RealizarPago(numeroTelefono: string; monto: real);
 begin
-  writeln('Se va a realizar un pago de ',monto,' al numero de TELEFONO ',numeroTelefono);
+  writeln('Se va a realizar un pago de ',monto,' al numero de TELEFONO: ',numeroTelefono);
 end;
 
 function ValidarPago(numeroTelefono: string): boolean;

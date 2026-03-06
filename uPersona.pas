@@ -18,7 +18,7 @@ type
     PPersona= ^TPersona;
 
 
-procedure CrearPersona(var persona: PPersona; Nombre, Apellido, DNI, FechaNacimiento: String; Rol: TRol);
+procedure CrearPersona(var persona: TPersona; Nombre, Apellido, DNI, FechaNacimiento: String; Rol: TRol);
 procedure MostrarPersona(P: TPersona);
 
 implementation
@@ -27,7 +27,7 @@ implementation
 
    procedure CrearPersona(var persona: TPersona; Nombre, Apellido, DNI, FechaNacimiento: String; Rol: TRol);
    begin
-     persona.Nombre:= nombre;
+     persona.nombre:= Nombre;
      persona.Apellido:= apellido;
      persona.DNI:= dni;
      persona.FechaNacimiento:= fechanacimiento;
@@ -38,7 +38,7 @@ implementation
    begin
      with P do begin
        writeln('Nombre: ',nombre);
-       writeln('Apelliso: ',apellido);
+       writeln('Apellido: ',apellido);
        writeln('DNI: ',dni);
        writeln('Fecha de nacimiento: ',fechaNacimiento);
        writeln('Rol: ',rol);

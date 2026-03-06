@@ -65,7 +65,7 @@ function CalcularNotaFinal(A: TAsignatura; AlumnoDNI: string): Real;
 var
   i: integer;
 begin
-    i:= buscarAlumno(a,alumnoDNI);
+    i:= buscarAlumno(alumnoDNI);
     calcularNotaFinal:= a.notas[i];
 end;
 

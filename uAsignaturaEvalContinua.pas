@@ -46,14 +46,33 @@ end;
 procedure InicializarAsignatura(var A: TAsignatura; Prof: PPersona);
 begin
     a.profesor:= prof;
-    a.numAlumnos:= 1;
+    a.numAlumnos:= 0;
 end;
 
 procedure AnadirAlumno(var A: TAsignatura; Alumno: PPersona);
 begin
-    a.alumnos[a.alumnos.numAlumnos]:= alumno;
-    inc(a.alumnos.numAlumnos);
+    inc(a.numAlumnos);
+    a.alumnos[a.numAlumnos]:= alumno;
 end;
 
+procedure Evaluar(var A: TAsignatura; AlumnoDNI: string; Nota: Real; Parcial: Integer);
+var
+  i: integer;
+begin
+    i:= buscarAlumno(a,AlumnoDNI);
+
+    if parcial = 1 then
+        a.NotasPrimerParcial[i]:= nota
+    else if parcial = 2 then
+        a.NotasSegundoParcial[i]:= nota;
+end;
+
+function CalcularNotaFinal(A: TAsignatura; AlumnoDNI: string): Real;
+var
+  i: integer;
+begin
+    i:= buscarAlumno(a,AlumnoDNI);
+    calcularNotaFinal:= (a.notasPrimerParcial[i] + a.notasSegundoParcial[i]) / 2;
+end;
 
 end.

@@ -6,9 +6,8 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="tad_ej3_gestion_academica.pas"/>
+        <Filename Value="tad_ej3_gestion_academica.pas.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="tad_ej3_gestion_academica.pas"/>
         <IsVisibleTab Value="True"/>
         <TopLine Value="30"/>
         <CursorPos X="23" Y="58"/>
@@ -40,17 +39,13 @@
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="15">
+    <JumpHistory HistoryIndex="13">
       <Position>
         <Filename Value="uAsignaturaEvalContinua.pas"/>
       </Position>
       <Position>
         <Filename Value="uAsignaturaEvalContinua.pas"/>
         <Caret Line="54" Column="23" TopLine="29"/>
-      </Position>
-      <Position>
-        <Filename Value="tad_ej3_gestion_academica.pas"/>
-        <Caret TopLine="29"/>
       </Position>
       <Position>
         <Filename Value="uPersona.pas"/>
@@ -95,10 +90,6 @@
       <Position>
         <Filename Value="uAsignaturaEvalFinal.pas"/>
         <Caret Line="68" Column="24" TopLine="42"/>
-      </Position>
-      <Position>
-        <Filename Value="tad_ej3_gestion_academica.pas"/>
-        <Caret Line="23" Column="76" TopLine="13"/>
       </Position>
       <Position>
         <Filename Value="uPersona.pas"/>

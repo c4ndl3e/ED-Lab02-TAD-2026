@@ -10,7 +10,7 @@
         <MainUnitHasScaledStatement Value="False"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="tad_ej3_gestion_academica"/>
+      <Title Value="tad_ej3_gestion_academica.pas"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,9 +26,8 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="tad_ej3_gestion_academica.pas"/>
+        <Filename Value="tad_ej3_gestion_academica.pas.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="tad_ej3_gestion_academica.pas"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -36,7 +35,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="tad_ej3_gestion_academica"/>
+      <Filename Value="tad_ej3_gestion_academica.pas"/>
     </Target>
     <SearchPaths>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
